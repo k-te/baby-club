@@ -1,0 +1,539 @@
+			/*ШРИФТЫ*/
+
+/* font-family: "RobotoSlabRegular"; */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100&subset=latin,cyrillic-ext);
+
+body {
+	font-family: "Roboto Slab", "sans-serif";
+}
+
+a {
+	font-family: "Roboto Slab", "sans-serif";;
+}
+			
+			/* ОБНУЛЕНИЕ ОТСТУПОВ */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+			/* LAYOUT */
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.row>div { 
+	float: left; 
+	box-sizing: border-box;
+}
+
+.row { 
+	overflow: hidden;
+}
+
+.column1 {
+	width: 8.33%;
+}
+.column2 {
+	width: 16.66%;
+}
+.column3 { 
+	width: 25%;
+}
+.column4 {
+	width: 33.33%;}
+.column5 { 
+	width: 41.66%;
+}
+.column6 { 
+	width: 50%;
+}
+.column7 { 
+	width: 58.33%;
+}
+.column8 { 
+	width: 66.66%;
+}
+.column9 { 
+	width: 75%;
+}
+.column10 { 
+	width: 83.11%;
+}
+.column11 { 
+	width: 91.66%;
+}
+.column12 { 
+	width: 100%;
+}
+
+.table {
+	display: table;
+}
+
+.table-cell {
+	display: table-cell;
+	vertical-align: middle;
+}	
+
+.pull-left {
+	float: left;
+	margin-left: 0;
+}	
+
+.pull-right {
+	float: right;
+	margin-right: 0;
+}	
+
+.full-width {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+			/* 5-колоночные сетки */
+
+.col1 {
+	width: 20%;
+	padding-top: 90px;
+	text-align: center;
+	font-size: 16px;
+	color: #5b5b5b;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 90px 42px 0px 40px;
+}
+
+			/*ФОН*/
+
+.somit-turquoise {
+	background-color: #5dc8c8;
+	min-width: 1200px;
+}
+
+header {
+	min-width: 1200px;
+}
+
+.main-background {
+	background-image: url(../img/background2.jpg);
+	min-width: 1200px;
+}
+
+a.logo {
+	opacity:0.9;
+	transition:opacity 0.4s ease;
+}
+
+a.logo:hover {
+	opacity: 1;
+}
+
+			/* КНОПКИ */
+
+.btn {
+	text-decoration: none;
+	transition:background 0.4s ease;
+}
+
+
+.btn-header {
+	display: inline-block;
+	background-color: #f4f4f4;
+	padding: 12px 40px;
+	border-radius: 5px;\
+	font-size: 15px;
+	color: #2a2a2a;
+	margin-top: 8px;
+	box-shadow: 0 2px 3px #4faaaa;
+	margin-bottom: 8px;
+}
+
+a.btn-header {
+	font-family: "Arial";
+}
+
+.btn-header:hover {
+	background-color: #D9EDF7;
+}
+
+button:hover {
+	background-color: #DF5048;
+}
+
+			/* HEADER */
+.logo { 
+	text-decoration: none;
+	margin-top: 30px; 
+}
+
+.header-div	{
+	height: 97px;
+	color: white;
+	font-size: 21px;
+	font-weight: normal;
+	text-shadow: 0px 1px 1px #54b4b4;
+}
+
+.phone-number {
+	font-size: 23px;
+	color: white;
+	font-weight: bold;
+	padding-left: 25px;
+	position: relative;
+	text-shadow: 0px 1px 1px #54b4b4;
+	margin-top: 5px;
+}
+
+.phone-number:before {
+	content:"";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background-image: url(../img/phone.png);
+	left: 2px;
+	top: 7px;
+}
+
+/* OWN BUSINESS */
+
+.own-business {
+	height: 412px;
+	background-image: url(../img/background.jpg);
+	position: relative;
+	background-size: cover;
+	min-width: 1200px;
+	background-position: 0 -130px;
+	padding-top: 42px;
+}
+
+.own-business-position {
+	position: relative;
+	  height: 412px
+}
+
+.pattern-stripe {
+	position: absolute;
+	top: -1px;
+	width: 100%;
+	min-width: 1200px;
+	height: 7px;
+	background-image: url(../img/pattern.png);
+	background-repeat: repeat-x;
+	background-position: 0 0;
+}
+
+.own-buziness-stripe {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	min-width: 1200px;
+	height: 5.5px;
+	background-image: url(../img/new-patt.png);
+	background-repeat: repeat-x;
+	background-position: 0 0;
+}
+
+h1 {
+	font-size: 35px;
+	color: white;
+	width: 288px;
+}
+
+.film {
+	position: relative;
+	bottom: -15px;
+	left: 202px;
+}
+
+.film-img {
+	width: 300px;
+	height: 125px;
+	background-image: url(../img/film.jpg);
+	background-position: 0 0;
+	border-radius: 7px 7px 0 0;
+}
+
+.film-text {
+	width: 300px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-top: 0;
+	font-size: 16px;
+	padding: 18px 25px;
+	background-color: #fff;
+	border-radius: 0 0 7px 7px;
+	transition:background 0.4s ease;
+}
+
+.film-text:hover {
+	background-color: #D9EDF7;
+}
+
+a.link-video {
+	text-decoration: none;
+	color: #7f7f7f;
+}
+
+.link {
+	position: relative;
+}
+.link:after {
+	content:"";
+	width: 27.5px;
+	height: 27.5px;
+	position: absolute;
+	right: 0.5px;
+	top: -3px;
+	background-image: url(../img/arrow.png);
+	background-repeat: no-repeat;
+}
+
+.form {
+	position: absolute;
+	bottom: 78px;
+	right: 0;
+	text-align: center;
+}
+
+			/* БЛОК С ФОРМАМИ */
+
+.title-wrap {
+	color: white;
+	background-color: #33c5be;
+	border-radius: 7px 7px 0 0;
+	padding-top: 18px;
+	width: 300px;
+	padding-bottom: 13.5px;
+}
+
+.form-form {
+	background-color: white;
+	border-radius: 0 0 7px 7px;
+	padding-bottom: 25px;
+	padding-top: 20px;
+	box-shadow: 0 2px 3px #48392e;
+}
+
+.form h2 {
+	font-size: 21px;
+	font-weight: bold;
+	color: white;
+}
+
+.form-wrap {
+	margin-top: 17.5px;
+}
+
+.send-title {
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: bold;
+	text-shadow: 0 1px 3px #279893;
+}
+
+.receive-title {
+	font-size: 15px;
+	font-family: "Arial";
+}
+
+input {
+	width: 241px;
+	height: 44px;
+	border-radius: 7px;
+	color: #999;
+	border: 1px solid #cacaca;	
+	padding-left: 14.5px;
+	padding-top: 13.5px;
+	padding-bottom: 13.5px;
+	outline: none;
+	font-size: 16px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#phone {
+	margin-top: 12px;
+}
+
+button {
+	font-size: 21px;
+	color: white;
+	background-color: #f2594b;
+	border-radius: 7px;
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+	width: 241px;
+	font-family: "Roboto Slab", "sans-serif";
+	outline: none;
+	margin-top: 16px;
+	cursor:pointer;
+	border:none;
+	box-shadow: 0 2px 3px #e5e5e5;
+	margin-bottom: 5px;
+}
+
+			/* БЛОК С ПРЕИМУЩЕСТВАМИ */
+
+.icon1 {
+	background-image: url(../img/icon1.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.icon2 {
+	background-image: url(../img/icon2.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.icon3 {
+	background-image: url(../img/icon3.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.icon4 {
+	background-image: url(../img/icon4.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.icon5 {
+	background-image: url(../img/icon5.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.advantages {
+	padding: 39px;
+}
+
+			/* БЛОК С ВЫБОРОМ ФОРМАТА */
+
+.choice {
+	width: 877px;
+	margin: 0 auto;
+}
+
+.choice h2 {
+	font-weight: bold;
+	font-size: 27px;
+	color: #00a99d;
+	text-align: center;
+	margin-bottom: 19px;
+}
+
+.choice-wrap {
+	margin-top: 14px;
+	background-color: white;
+	border: 1px solid #ecedee;
+	border-radius: 6px;
+	box-shadow: 2px 2px 3px #ecedee;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 26px 36px;
+	width: 401px;
+}
+
+.choice-wrap-wide {
+	padding-right: 18px;
+}
+
+.logo-choice {
+	text-align: center;
+	width: 100%;
+}
+.logo-choice a {
+	opacity:0.9;
+	transition:opacity 0.4s ease;
+}
+
+.logo-choice a:hover {
+	opacity: 1;
+}
+
+.noname-logo-choice a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #151515;
+}
+
+.noname-logo-choice {
+	padding: 13px 65px;
+	background-color: white;
+	display: inline-block;
+}
+
+.noname-logo-choice {
+	transition:background 0.4s ease;
+}
+
+.noname-logo-choice:hover {
+	background-color: #D9EDF7;
+} 
+
+h3 {
+	font-weight: bold;
+	color: #cf1100;
+	font-size: 15px;
+	text-align: center;
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+.h3-wide {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.choice-punct {
+	margin-top: 16px;
+	color: #151515;
+	font-size: 14px;
+	padding-left: 23px;
+	position: relative;
+}
+
+.choice-punct:before {
+	content:"";
+	width: 17px;
+	height: 17.5px;
+	position: absolute;
+	left: -5px;
+	background-image: url(../img/star.png);
+}
+
+.row-padding {
+	padding-bottom: 30px;
+}
+
+.row-right {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-right: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
